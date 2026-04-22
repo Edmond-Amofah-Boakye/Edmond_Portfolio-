@@ -12,7 +12,7 @@ import WhatsAppButton from './components/WhatsAppButton';
 function App() {
   return (
     <ThemeProvider>
-      <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors">
+      <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors overflow-x-hidden">
         <Navbar />
         <Hero />
         <About />

@@ -30,29 +30,29 @@ const Experience: React.FC = () => {
 
         <div className="relative">
           {/* Timeline line */}
-          <div className="absolute left-8 md:left-1/2 transform md:-translate-x-1/2 h-full w-0.5 bg-primary-200 dark:bg-primary-800"></div>
+          <div className="absolute left-4 md:left-1/2 transform md:-translate-x-1/2 h-full w-0.5 bg-primary-200 dark:bg-primary-800"></div>
 
-          <div className="space-y-12">
+          <div className="space-y-8 md:space-y-12">
             {experience.map((exp, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 20 }}
                 animate={inView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className={`relative flex items-center ${
+                className={`relative flex items-start md:items-center ${
                   index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
                 }`}
               >
                 {/* Timeline dot */}
-                <div className="absolute left-8 md:left-1/2 transform -translate-x-1/2 w-4 h-4 bg-primary-600 rounded-full border-4 border-white dark:border-gray-900"></div>
+                <div className="absolute left-4 md:left-1/2 transform -translate-x-1/2 w-3 h-3 md:w-4 md:h-4 bg-primary-600 rounded-full border-2 md:border-4 border-white dark:border-gray-900"></div>
 
                 {/* Content card */}
                 <div
-                  className={`ml-20 md:ml-0 md:w-5/12 ${
+                  className={`ml-10 md:ml-0 md:w-5/12 w-full pr-4 md:pr-0 ${
                     index % 2 === 0 ? 'md:mr-auto md:pr-12' : 'md:ml-auto md:pl-12'
                   }`}
                 >
-                  <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+                  <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-4 md:p-6 hover:shadow-xl transition-shadow">
                     <div className="flex items-start gap-3 mb-3">
                       <div className="p-2 bg-primary-100 dark:bg-primary-900 rounded-lg">
                         <FiBriefcase className="text-primary-600 dark:text-primary-400" size={20} />
