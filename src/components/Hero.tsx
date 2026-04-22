@@ -70,7 +70,8 @@ const Hero: React.FC = () => {
                   <img 
                     src="/profile_image_one.jpeg" 
                     alt={personalInfo.name}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover scale-150"
+                    style={{ objectPosition: 'center 30%' }}
                   />
                 </div>
               </div>
