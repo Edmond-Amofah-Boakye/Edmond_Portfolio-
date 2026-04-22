@@ -83,7 +83,7 @@ export const skills = {
   "Frontend": ["React.js", "HTML5", "CSS3", "Tailwind CSS", "Material UI", "Shadcn UI", "Ant Design", "Responsive Design"],
   "Backend": ["Node.js", "Express.js", "NestJS", "Python FastAPI", "ASP.NET Core", "RESTful APIs"],
   "Mobile Development": [".NET MAUI", "Cross-platform Apps"],
-  "Databases": ["MongoDB", "PostgreSQL", "MySQL", "Microsoft SQL Server", "Redis", "Database Design"],
+  "Databases": ["MongoDB", "PostgreSQL", "MySQL", "Microsoft SQL Server", "Redis"],
   "Machine Learning & AI": ["TensorFlow", "PyTorch", "Scikit-learn", "Pandas", "NumPy", "Explainable AI", "CNNs", "Time Series Forecasting"],
   "Testing & Quality": ["Unit Testing", "Integration Testing", "Test-Driven Development", "Code Review", "Debugging"],
   "Cloud & Tools": ["AWS", "Cloudflare", "Git", "GitHub", "Visual Studio", "VS Code", "Postman", "ClickUp", "Swagger"],
