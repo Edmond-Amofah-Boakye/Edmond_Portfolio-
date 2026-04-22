@@ -64,16 +64,14 @@ const Hero: React.FC = () => {
                 className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500 via-cyan-500 to-blue-600 blur-xl opacity-60"
               />
               
-              {/* Image placeholder */}
+              {/* Profile Image */}
               <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-br from-blue-600 via-cyan-500 to-blue-700 p-2">
                 <div className="w-full h-full rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center overflow-hidden">
-                  {/* Placeholder - user will add their image here */}
-                  <div className="text-center p-8">
-                    <FiCode className="w-24 h-24 mx-auto text-gray-400 dark:text-gray-600 mb-4" />
-                    <p className="text-sm text-gray-500 dark:text-gray-400">
-                      Add your photo here
-                    </p>
-                  </div>
+                  <img 
+                    src="/profile_image_one.jpeg" 
+                    alt={personalInfo.name}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
             </div>
