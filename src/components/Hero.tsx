@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FiGithub, FiLinkedin, FiDownload, FiMapPin, FiCode } from 'react-icons/fi';
+import { FiGithub, FiLinkedin, FiDownload, FiMapPin } from 'react-icons/fi';
 import { personalInfo } from '../data/portfolioData';
 
 const Hero: React.FC = () => {
