@@ -53,8 +53,8 @@ const Projects: React.FC = () => {
             Featured <span className="bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">Projects</span>
           </h2>
           <div className="w-24 h-1.5 bg-gradient-to-r from-blue-600 to-cyan-600 mx-auto mb-6 rounded-full"></div>
-          <p className="text-center text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mb-12 text-lg">
-            Showcasing my best work. <span className="text-blue-600 dark:text-cyan-400 font-semibold">Update with your actual projects!</span>
+          <p className="text-center text-blue-600 dark:text-cyan-400 max-w-2xl mx-auto mb-12 text-lg">
+            Showcasing my best work.
           </p>
         </motion.div>
 
