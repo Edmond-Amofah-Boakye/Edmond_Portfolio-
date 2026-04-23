@@ -80,10 +80,10 @@ export const experience = [
 
 export const skills = {
   "Programming Languages": ["Python", "JavaScript (ES6+)", "TypeScript", "C#"],
-  "Frontend": ["React.js", "HTML5", "CSS3", "Tailwind CSS", "Material UI", "Shadcn UI", "Ant Design", "Responsive Design"],
-  "Backend": ["Node.js", "Express.js", "NestJS", "Python FastAPI", "ASP.NET Core", "RESTful APIs"],
+  "Frontend": ["React.js", "Next.js", "HTML5", "CSS3", "Tailwind CSS", "Material UI", "Shadcn UI", "Ant Design", "Responsive Design"],
+  "Backend": ["Node.js", "Express.js", "NestJS", "Next.js", "Python FastAPI", "ASP.NET Core", "RESTful APIs"],
   "Mobile Development": [".NET MAUI", "Cross-platform Apps"],
-  "Databases": ["MongoDB", "PostgreSQL", "MySQL", "Microsoft SQL Server", "Redis"],
+  "Databases": ["MongoDB", "PostgreSQL", "MySQL", "Microsoft SQL Server", "Redis", "Supabase"],
   "Machine Learning & AI": ["TensorFlow", "PyTorch", "Scikit-learn", "Pandas", "NumPy", "Explainable AI", "CNNs", "Time Series Forecasting"],
   "Testing & Quality": ["Unit Testing", "Integration Testing", "Test-Driven Development", "Code Review", "Debugging"],
   "Cloud & Tools": ["AWS", "Cloudflare", "Git", "GitHub", "Visual Studio", "VS Code", "Postman", "ClickUp", "Swagger"],
@@ -186,6 +186,23 @@ export const projects = [
     githubUrl: "#",
     liveUrl: "https://tickr.reallygreattech.com/login",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop"
+  },
+  {
+    title: "Elcam AI Assistant - Authentication & AI Platform",
+    description: "Advanced Next.js application with complete authentication system and AI-powered features. Built with Supabase for backend, Shadcn UI for components, and integrated AI capabilities using LangChain, OpenAI, and Anthropic for intelligent document processing and conversation.",
+    technologies: ["Next.js 16", "TypeScript", "Supabase", "Shadcn UI", "React Hook Form", "Zod", "TailwindCSS", "LangChain", "OpenAI", "Anthropic", "TipTap", "React Query", "Redux Toolkit"],
+    role: "Full Stack Developer",
+    highlights: [
+      "Built complete authentication system with email/password and OAuth (GitHub, Google)",
+      "Implemented protected routes with Next.js middleware and server-side authentication",
+      "Integrated AI features using LangChain for document processing and intelligent chat",
+      "Created rich text editor with TipTap for advanced content creation",
+      "Developed type-safe database queries with auto-generated TypeScript types from Supabase",
+      "Implemented form validation with React Hook Form and Zod schema validation"
+    ],
+    githubUrl: "#",
+    liveUrl: "#",
+    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop"
   },
   {
     title: "Product Demand Forecasting System",
